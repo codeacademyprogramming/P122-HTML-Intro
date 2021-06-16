@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- method:
+        GET --- 
+        POST ---
+    -->
+    <form action="domain.com/register.cs" method="POST">
+        <label for="nameinput">
+            Name:
+            <input id="nameinput" type="text" name="ad" value="" required placeholder="Adinizi daxil edin"> <br>
+        </label>
+        <label for="surnameinput">
+            Soyad:
+            <input id="surnameinput" type="text" name="soyad" value="" onchange="" required
+                placeholder="Soyadinizi daxil edin"><br>
+        </label>
+        <label for="passwordinput">
+            Shifre:
+            <input id="passwordinput" type="password" name="shifre" value="" onchange="checkPassword()" required
+            placeholder="Shifrenizi daxil edin"><br>
+        </label>
+        <label for="fileinput">
+            shekil:
+            <input id="fileinput" hidden type="file"> <br>
+        </label>
+        <!-- <button type="submit">Register</button> -->
+        <input type="submit" value="Register">
+    </form>
+    <br>
+    <form action="https://facebook.com" method="GET">
+        <input type="search" name="query" value=""> <br>
+        <button type="submit">Search</button>
+    </form>
+</body>
+
+</html>
